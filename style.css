@@ -1,0 +1,206 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    
+}
+
+.bar {
+    width: 700px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.bar1 {
+    width: 200px;
+    padding-top: px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width:600px) {
+   .bar{
+    display: none;
+   } 
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: 700px;
+}
+
+.hedder {
+    position: relative;
+}
+
+.hedder1 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 13px 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px rgb(89, 245, 68);
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.hedder11 {
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    width: 72%;
+    margin-left: 28%;
+}
+
+@media screen and (max-width:600px) {
+    .hedder11 {
+        margin-left: 2%;
+        width: 98%;
+    }
+}
+
+.a1 {
+    width: 1000px;
+    height: 600px;
+}
+
+@media screen and (max-width:600px) {
+    .a1 {
+        width: 100%;
+    }
+}
+.a2 {
+    position: absolute;
+    padding: 50px;
+    color: white;
+    text-align: start;
+    width: 350px;
+}
+.button1 {
+    margin-top: 30px;
+    padding: 13px 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 6px 6px 2cap rgb(89, 245, 68);
+}
+
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.button2 {
+    margin-top: 30px;
+    padding: 13px 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.button2:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.contentt{
+    width: 800px;
+    font-weight: 100;
+    padding-left: 10%;
+    font-weight: 800;
+}
+@media screen and (max-width:600px) {
+    .contentt{
+        padding: 20px;
+    }
+}
+.imgg{
+    background-color: rgb(57, 56, 56);
+    height: 650px;
+    color: white;
+}
+.black{
+    width: 400px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+input{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.form {
+    flex: 1;
+    padding: 40px;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 20px;
+    border-radius: 3px;
+    border-radius: 150px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 80px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
